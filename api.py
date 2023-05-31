@@ -50,6 +50,8 @@ def delivery_dates():
     if content['num_of_items'] != len(content['items']):
         return json.dumps({'error': 'Number of items does not match'}), 400
     
+    # Add check for address
+    
     # create dummy deliver dates and prices
     dates_df = pd.DataFrame(columns=['date', 'price'])
 
@@ -70,26 +72,6 @@ def delivery_dates():
 
 
 
-    return json.dumps(content)
-
-
-
-    
-    
-
-    
-    
-
-
-    jsn = json.dumps({'product': product, 'height': height, 'width': width})
-    print(jsn)
-
-    
-
-    return jsn
-
-
-
 if __name__ == '__main__':
-    app.run(port=7777, debug=True)
+    app.run(host="0.0.0.0")
 
