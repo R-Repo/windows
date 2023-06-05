@@ -1,6 +1,6 @@
-product,minheight,maxheight,minwidth,maxwidth
-Casement,500,4000,500,4000
-Bifold,1800,4000,2000,6000
-Inward,500,4000,500,4000
-Sliding,1800,4000,2000,6000
-Door,1800,4000,1000,4000
+Product,minheight,maxheight,minwidth,maxwidth
+casement,500,4000,500,4000
+bi_fold_door,1800,4000,2000,6000
+inward_opening_casement,500,4000,500,4000
+sliding_door,1800,4000,2000,6000
+70_door,1800,4000,1000,4000
