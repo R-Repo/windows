@@ -1,4 +1,4 @@
-Product,minheight,maxheight,minwidth,maxwidth
+product,minheight,maxheight,minwidth,maxwidth
 casement,500,4000,500,4000
 bi_fold_door,1800,4000,2000,6000
 inward_opening_casement,500,4000,500,4000
