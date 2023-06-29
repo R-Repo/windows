@@ -33,14 +33,14 @@ def product_prices():
     
     # calculate prices
     product_prices = price_df[price_df['product'] == product]
-    product_prices["price"] = product_prices['fixedcost'] + product_prices['dimcost'] * (height/100) * (width/100)
+    product_prices["price"] = product_prices['fixedcost'] + product_prices['dimcost'] * (height/200) * (width/200)
 
     return product_prices[["product", "option", "price"]].to_json(orient="records")
 
 @app.route('/api/v1.0/getdimensions', methods=['GET'])
 def product_dimensions():
     product = str(request.args.get('product'))
-
+ 
     dimlimts_df = dim_df[dim_df['product'] == product]
     return dimlimts_df.to_json(orient="records")
 
