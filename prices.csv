@@ -2,8 +2,8 @@ product,option,fixedcost,dimcost
 casement,casement_1,50,10
 casement,casement_2,52,12
 casement,casement_3,55,13
-casement,casement_4,60,12
-casement,casement_5,65,15
+casement,casement_4,200,12
+casement,casement_5,300,13
 bi_fold_door,bifold_1,60,10
 bi_fold_door,bifold_2,63,12
 bi_fold_door,bifold_3,64,13
